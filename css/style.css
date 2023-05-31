@@ -65,28 +65,10 @@ input {
 
 .calculate-btn:hover,
 .clear-btn:hover {
-  background-color: white;
+  background-color: rgb(226, 12, 12);
 }
 
 .result {
   margin-top: 20px;
   font-weight: bold;
-}
-
-/* Media Queries */
-
-@media screen and (min-width: 600px) {
-  .button-group {
-    flex-direction: row;
-  }
-
-  .calculate-btn,
-  .clear-btn {
-    flex-basis: 48%;
-  }
-
-  .clear-btn {
-    margin-top: 0;
-    margin-left: 1%;
-  }
 }
